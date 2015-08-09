@@ -1,0 +1,17 @@
+{
+  "name": "tf2stadium-blog",
+  "version": "0.0.0",
+  "description": "Developer enviroment for tf2stadium's blog",
+  "main": "gulpfile.js",
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.97.0"
+  }
+}

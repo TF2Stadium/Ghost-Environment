@@ -1,0 +1,9 @@
+bower_components
+build
+node_modules
+content
+src
+.sublime-gulp.cache
+*.sublime-workspace
+*.map
+npm-debug.log
