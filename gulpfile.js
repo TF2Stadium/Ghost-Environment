@@ -38,7 +38,7 @@ function endsWith(str, suffix) {
 // minified version
 //
 gulp.task('sass', function () {
-	gulp.src('./src/css/*.scss')
+	gulp.src('./src/css/main.scss')
 		.pipe(plugins.plumber(onError))
 		.pipe(plugins.sourcemaps.init())
 		.pipe(plugins.sass())
@@ -48,7 +48,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('sass_minify', function () {
-	gulp.src('./src/css/*.scss')
+	gulp.src('./src/css/main.scss')
 		.pipe(plugins.sass())
 		.pipe(plugins.autoprefixer('last 2 version', 'safari 5', 'ie 9', 'opera 12.1'))
 		.pipe(plugins.minifyCSS())
